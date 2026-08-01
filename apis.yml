@@ -1,7 +1,20 @@
 aid: skyfri
 name: Skyfri
-description: Skyfri is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Skyfri is a cleantech software and hardware company headquartered in Oslo,
+  Norway that builds an operating platform for owners and operators of solar and
+  battery energy assets. Founded in 2021, Skyfri combines an edge-native
+  monitoring and control device (the SSI hardware, which speaks Modbus and SCADA
+  over isolated RS-485 ports to inverters, meters, and sensors) with a cloud
+  platform that automates operations, maintenance, and asset performance
+  management. The software delivers real-time data processing, operational
+  management, weather forecasting, dynamic benchmarking, plant insights, and
+  fault detection to monitor generation and address underperformance and
+  equipment failure across a global portfolio of solar and battery assets. The
+  company has offices in Denver, London, Oslo, Singapore, and Bangalore and is
+  backed by Speedinvest. Skyfri exposes no public developer API, documentation,
+  or SDKs at this time; its platform is delivered as a customer application at
+  app.skyfri.com.
 url: https://raw.githubusercontent.com/api-evangelist/skyfri/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +22,52 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://app.skyfri.com/skyfri-preview.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Solar
+- Energy
+- Cleantech
+- Renewable Energy
+- Asset Management
+- SCADA
+- Monitoring
+- IoT
 apis: []
+common:
+- type: DomainSecurity
+  url: security/skyfri-domain-security.yml
+- type: Website
+  url: https://www.skyfri.com/
+- type: Product
+  url: https://www.skyfri.com/product
+- type: Login
+  url: https://app.skyfri.com
+- type: About
+  url: https://www.skyfri.com/why-skyfri
+- type: LinkedIn
+  url: https://www.linkedin.com/company/skyfri
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

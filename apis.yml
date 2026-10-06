@@ -47,7 +47,7 @@ accessModel:
 image: https://app.skyfri.com/skyfri-preview.png
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Solar
@@ -60,6 +60,8 @@ tags:
 - IoT
 apis: []
 common:
+- url: https://www.skyfri.com/news
+  type: Blog
 - type: DomainSecurity
   url: security/skyfri-domain-security.yml
 - type: Website

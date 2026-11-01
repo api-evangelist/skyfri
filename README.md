@@ -64,6 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Skyfri is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Skyfri is a cleantech software and hardware company headquartered in Oslo, Norway that builds an operating platform for owners and operators of solar and battery energy assets. Founded in 2021, Skyfri combines an edge-native monitoring and control device (the SSI hardware, which speaks Modbus and SCADA over isolated RS-485 ports to inverters, meters, and sensors) with a cloud platform that automates operations, maintenance, and asset performance management. The software delivers real-time data processing, operational management, weather forecasting, dynamic benchmarking, plant insights, and fault detection to monitor generation and address underperformance and equipment failure across a global portfolio of solar and battery assets. The company has offices in Denver, London, Oslo, Singapore, and Bangalore and is backed by Speedinvest. Skyfri exposes no public developer API, documentation, or SDKs at this time; its platform is delivered as a customer application at app.skyfri.com.
 
-Backed by: speedinvest
+**Areas:** Company · Solar · Energy · Cleantech · Renewable Energy · Asset Management · SCADA · Monitoring · IoT
+
+## Skyfri on APIs.io
+
+Everything profiled for Skyfri is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/skyfri/](https://apis.io/providers/skyfri/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Skyfri Domain Security](https://apis.io/security/skyfri/skyfri-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.skyfri.com/)
+- [Blog](https://www.skyfri.com/news)
+
+## API Evangelist rating
+
+**Kin Score 5.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 6.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.9** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/skyfri/](https://apis.io/providers/skyfri/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Skyfri: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/skyfri/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
